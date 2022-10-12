@@ -24,8 +24,8 @@ body, html{
 }
 */
 
-#banner img{
-    
+#banner{
+    background-image: url(/imagens/backgrounds/Acessorios\ &\ Variedades.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
