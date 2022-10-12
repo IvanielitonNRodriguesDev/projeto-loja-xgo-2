@@ -2,7 +2,11 @@
 
  cor xgo - #8000f8 - para gradient #CD00FF 
  
- box-shadow: 2px 5px 8px 0px rgb(0 0 0 / 53%)
+ <img src="imagens/backgrounds/Acessorios & Variedades.jpg" alt="banner">
+
+
+
+
  */
 
 
@@ -24,12 +28,19 @@ header{
     
     
 }
-#banner img{
+#banner{
+    background-image: url(/imagens/backgrounds/Acessorios\ &\ Variedades.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 25vh;
-    box-shadow: 2px 5px 8px 0px rgb(0 0 0 / 53%)
+    height: 30vh;
+    box-shadow: 2px 5px 8px 0px rgb(0 0 0 / 53%);
+    background-attachment: fixed;
+    
+}
+
+#fix{
+    background-attachment: fixed;
 }
 
 nav {
@@ -46,12 +57,13 @@ nav ul li a{
 }
 
 #container1{
-    box-shadow: 2px 5px 8px 0px rgb(0 0 0 / 53%)
+    box-shadow: 0px -7px 12px 0px rgba(0, 0, 0, 0.322)
 }
 
 .container-all a img{
     width: 380px;
     height: 280px;
+    
 }
 
 
