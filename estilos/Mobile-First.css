@@ -1,0 +1,71 @@
+/*@charset "UTF-8";
+
+ cor xgo - #8000f8 - para gradient #CD00FF */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body, html{
+    background-color: rgb(240, 240, 240);
+    
+}
+/*
+#logo{
+    background-image: url(/imagens/logo-loja.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 100px;
+    
+}
+*/
+
+#banner img{
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25vh;
+    background-attachment: fixed;
+    box-shadow: inset -1px -9px 9px 0px rgba(0, 0, 0, 0.534);
+}
+
+
+article a img{
+    width: 290px;
+    height: 290px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+media de 1920x1080
+
+header{
+    background-image: url(/imagens/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    width: 100%;
+    height: 100vh;
+    display: 
+}
+
+*/
+
