@@ -1,13 +1,9 @@
 /*@charset "UTF-8";
 
  cor xgo - #8000f8 - para gradient #CD00FF 
+
+ /* */
  
- <img src="imagens/backgrounds/Acessorios & Variedades.jpg" alt="banner">
-
-
-
-
- */
 
 
 *{
@@ -20,54 +16,222 @@
 body, html{
     background-color: rgb(240, 240, 240);
     font-family: 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
     
 }
+
+span{
+    color: #8000f8;
+    font-weight: bold;
+}
+
+ /* Logo e menu */
 
 header{
     background-color: #8000f8;
     
-    
 }
-menu{
-    background-image: url(/imagens/backgrounds/Acessorios\ &\ Variedades.jpg);
+#banner img{
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     height: 30vh;
-    box-shadow: 2px 5px 8px 0px rgb(0 0 0 / 53%);
-    background-attachment: fixed;
-    
+    box-shadow: 2px 5px 8px 0px rgba(0, 0, 0, 0.815);
+    margin-bottom: -4px;
 }
-
-#fix{
-    background-attachment: fixed;
+#menu{
+    display: block;
+    background-color: #4f0197;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+}
+#menu:hover{
+    background-color: white;
+    color: #8000f8;
+    font-weight: bold;
 }
 
 nav {
-    display: block;
+    display: none;
 }
 
 nav ul li a{
     color: white;
     display: block;
-    padding: 10px;
+    padding: 12px;
     text-decoration: none;
     text-align: center;
     background-color: #8000f8;
+    font-weight: bold;
+    font-size: 20px;
+    border-top: 2px solid #3c0074;
+}
+nav ul li a:hover{
+    color: #8000f8;
+    background-color: white;
 }
 
-#container1{
-    box-shadow: 0px -7px 12px 0px rgba(0, 0, 0, 0.322)
+#line-top{
+    border: 2px solid transparent;
 }
 
+ /* todos os containers */
+
+.container-all{
+    padding: 15px;
+    font-size: 17px;
+
+}
+.container-all a{
+    text-decoration: none;
+}
 .container-all a img{
     width: 380px;
     height: 280px;
+    margin: auto;
+    
+}
+
+.container-all h2{
+    font-size: 30px;
+}
+
+.container-all h3{
+    font-size: 23px;
+    padding: 10px 0px;
+}
+
+
+/* Produtos - container 1 */
+
+#container1{
+    box-shadow: 0px -13px 12px 0px rgba(0, 0, 0, 0.247);
+    
+}
+#container1 p, #container1 h3{
+    text-align: center;
+}
+#container1 h3{
+    color: black;
+}
+
+/* botões */
+
+.but-conta{
+    color: white;
+    background-color: #8000f8;
+    width: 160px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 50px;
+    border: solid 1px transparent;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.but-conta:hover{
+    color: #8000f8;
+    background-color: white;
+    border: black solid 1px;
+    font-weight: bold;
+}
+
+.but-descri{
+    color: white;
+    background-color: #565457;
+    width: 160px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 50px;
+    border: solid 1px transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+.but-descri:hover{
+    color: #8000f8;
+    background-color: white;
+    border: black solid 1px;
+    font-weight: bold;
+}
+
+#container1 p{
+    margin-top: 10px;
+    
+}
+
+.lados{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+/* container 2 e 3 */
+
+#container2 p, #container3 p{
+    text-align: justify;
     
 }
 
 
+/* container 4 */
 
+#container4{
+ text-align: center;
+}
+
+#container4 p{
+    font-size: 20px;
+}
+#Rua{
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+footer{
+    box-shadow: 0px -1px 12px 3px rgba(0, 0, 0, 0.342);
+    background-color: rgb(230, 230, 230);
+}
+footer p{
+    padding: 10px;
+}
+
+#gostou-do-site{
+    background-color: #8000f8;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    letter-spacing: 1px;  
+}
+
+#divulgacao-social{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    color: #8000f8;
+    text-decoration: underline;
+
+}
+
+#rede-sociais{
+    display: flex;
+    justify-content: center;
+}
+#rede-sociais a{
+    padding: 10px;
+}
+#rede-sociais a img{
+    width: 60px;
+}
+
+#feito-por{
+    text-align: center;
+    padding: 12px;
+    color: white;
+    background-color: #8000f8;
+}
 
 
 
